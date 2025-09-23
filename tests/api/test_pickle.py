@@ -294,4 +294,4 @@ class TestMPILauncher(unittest.TestCase):
 if __name__ == '__main__':
     if '--mpi-mode' in sys.argv:
         sys.argv.remove('--mpi-mode')
-        unittest.main(verbosity=2)
+    unittest.main(verbosity=2)
